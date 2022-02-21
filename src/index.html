@@ -1,13 +1,67 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Ryanlam.Net</title>
+  <title>Ryan Lam - Personal Site</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+  <link rel="stylesheet" href="/assets/css/plugin.css">
+  <link rel="stylesheet" href="/assets/css/font.css">
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
+</head> 
+<body> 
+  <div class="main-wrapper clearfix"> 
+    <header id="header">
+      <div class="header-style1-wrap">
+        <div class="header-content-left"> 
+          <div class="logo">
+            <h2 class="logo-title">
+              <a href="#">RYANLAM</a>
+            </h2>
+          </div> 
+        </div>
+        <div class="header-content-right"> 
+          <nav class="main-nav col-span-9  sm:col-span-12"> 
+            <button class="jepret-menu-mobile">
+              <i class="icon icon-reorder"></i>
+            </button> 
+            <ul id="main-menu" class="sm sm-clean mobile-menu">
+              <li class="menu-item"><a href="/">Home</a></li>
+              <li class="menu-item has-submenu">
+                <a href="?">Albums</a>
+                <ul class="sub-menu">
+                  <li class="menu-item-sub"><a href="/gallery/album">Adora</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav> 
+        </div>
+      </div>
+    </header> 
+    <section class="content"><div class="top-bar"></div>
+      <div class="left-bar"></div>
+      <div class="right-bar"></div> 
+      <app-root></app-root>
+    </section> 
+    <footer id="footer">
+      <div class="copyright">
+        <p class="copyright-text">© Ryan Lam 2022</p>
+      </div>
+    </footer> 
+  </div>
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="/assets/js/jquery.smartmenus.min.js"></script>
+  <script src="/assets/js/aos.js"></script>
+  <script src="/assets/js/swiper-bundle.min.js"></script>
+  <script src="/assets/js/lightgallery-all.min.js"></script>
+  <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/js/isotope.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
+
 </html>
